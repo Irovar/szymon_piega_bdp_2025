@@ -1,1 +1,2 @@
-Zmiana do zadania
+Zmiana zawartości do zadania1
+
