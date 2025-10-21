@@ -1,3 +1,4 @@
+-- sposób wykorzystujący różnice symetryczna
 SELECT ST_Area(
     ST_SymDifference(
         (SELECT geometry FROM buildings WHERE name = 'BuildingC'),
