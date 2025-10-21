@@ -1,3 +1,4 @@
+-- według AI: Używamy ST_GeomFromText z SRID 0 (układ niezdefiniowany).
 INSERT INTO buildings (geometry, name) VALUES
 (ST_GeomFromText('POLYGON((8 1.5, 10.5 1.5, 10.5 4, 8 4, 8 1.5))', 0), 'BuildingA'),
 (ST_GeomFromText('POLYGON((4 5, 6 5, 6 7, 4 7, 4 5))', 0), 'BuildingB'),
