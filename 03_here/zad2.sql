@@ -49,7 +49,7 @@ WHERE
             ST_DWithin(
                 t_poi.geom::geography,
                 t_bud.geom::geography,
-                500  -- odległość w metrach
+                500
             )
     )
 GROUP BY
